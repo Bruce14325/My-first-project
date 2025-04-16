@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Science Experiment</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        font-family: FEAR logo;
+        background: url('bgbody.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header h1 {
+        font-size: 2.5em;
+        color: #00ffcc;
+        margin: 0;
+    }
+    
+    .members {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        justify-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .member-card {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .member-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .member-card img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 3px solid #00ffcc;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    
+    .member-card h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: #00ffcc;
+        font-size: 1.2rem;
+    }
+    
+    .member-card p {
+        font-size: 0.9em;
+        color: #ddd;
+        line-height: 1.5;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    
+    .logo {
+        width: 80px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: FEAR logo;
+    }
+    
+    nav ul li a:hover {
+        color: #2e3a87;
+    }
+    
+    .about-container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        color: #ffffff;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        font-family: FEAR logo;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        text-align: justify;
+        margin-bottom: 20px;
+        color: #ffffff;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        font-family: FEAR logo;
+    }
+    
+    .footer-container {
+        background-color: white;
+        color: #333;
+        font-family: FEAR logo;
+        padding: 20px;
+    }
+    
+    .footer-container h2 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 16px;
+        text-align: center;
+        text-shadow: none;
+        color: black;
+    }
+    
+    .footer-container ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-container li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    
+    .footer-container li i {
+        font-size: 1.5rem;
+        margin-right: 16px;
+    }
+    
+    .footer-container li a {
+        color: black;
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <header>
+        <img src="meow2.png" alt="SE Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Science Experiment.html">Science Experiments</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Developers.html">Developers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about-container">
+        <h2>👨‍🔬 Science Enthusiasts 👩‍🔬</h2>
+        <p class="mission">We are a group of passionate IT students dedicated to creating an educational website that makes science fun, simple, and exciting for young learners. ✨</p>
+
+        <div class="members">
+            <div class="member-card">
+                <img src="Luminda.jpg" alt="Philip Luminda">
+                <h3>Philip L. Luminda</h3>
+                <p>Leader and Developer. Responsible for coding and project management.</p>
+            </div>
+            <div class="member-card">
+                <img src="Messenger_creation_EA2C0BE4-3C6A-4CAC-80CE-12D2AB57AE76.jpeg" alt="Norhanifah Shaik">
+                <h3>Norhanifah H. Shaik</h3>
+                <p>Lead Designer. Created the website layout and style, ensuring a user-friendly experience.</p>
+            </div>
+            <div class="member-card">
+                <img src="received_1919718541891756.jpeg" alt="Bryle Tanhay">
+                <h3>Bryle A. Tanhay</h3>
+                <p>UI/UX helper. Assisted in layout and experiment video selection.</p>
+            </div>
+            <div class="member-card">
+                <img src="Messenger_creation_32A4E53C-EE54-4662-BAF8-C55E402F7B02.jpeg" alt="Allyssa Abao">
+                <h3>Allyssa B. Abao</h3>
+                <p>Content Manager. Worked on content creation and helped with experiment descriptions.</p>
+            </div>
+            <div class="member-card">
+                <img src="received_9279454158843696.jpeg" alt="Kian Antido">
+                <h3>Kian Carl B. Antido</h3>
+                <p>Developer. Assisted with coding and troubleshooting technical issues.</p>
+            </div>
+            <div class="member-card">
+                <img src="received_1430742264575787.jpeg" alt="Cherry Gordo">
+                <h3>Cherry Denise M. Gordo</h3>
+                <p>Research Assistant. Supported in gathering data and writing experiment summaries.</p>
+            </div>
+            <div class="member-card">
+                <img src="received_2908790625957255.jpeg" alt="Stephen Charls Ansungay">
+                <h3>Stephen Charls A. Ansungay</h3>
+                <p>Support Developer. Assisted with website functionality and testing across browsers.</p>
+            </div>
+        </div>
+    </div>
+    <div class="about-container">
+        <h2>About Us</h2>
+        <p>Welcome to our Science Experiment Website! This website was created to help students and teachers explore fun and exciting science experiments. Our goal is to make learning science simple, interactive, and enjoyableWelcome to our Science Experiment
+            Website! We're thrilled to have you here. This website was created with you in mind—whether you're a student excited to explore the world of science through fun and interactive experiments or a teacher searching for new ways to inspire your
+            students.
+        </p>
+
+        <p>Our goal is simple: to make learning science not just easy, but also fun and exciting. We provide clear, step-by-step instructions, captivating videos, and essential safety guidelines to ensure you have a safe and enjoyable learning experience.
+            Our collection of science experiments is designed to spark curiosity and foster a deeper understanding of how the world works. Whether you're building your own project or looking for a classroom activity, you'll find plenty of resources to
+            guide you.</p>
+
+        <p>So, come along and join us in discovering the amazing world of science, and let's make learning an unforgettable adventure filled with exploration and creativity!</p>
+
+    </div>
+    <footer class="footer-container">
+        <h2>FIND US HERE</h2>
+        <ul>
+            <li>
+                <i class="fab fa-facebook" style="color: #3b5998;"></i>
+                <a href="https://www.facebook.com/profile.php?id=61574739190496">Join us on Facebook</a>
+            </li>
+            <li>
+                <i class="fab fa-youtube" style="color: #FF0000;"></i>
+                <a href="https://www.youtube.com/@ScienceExperiments-q8m">Follow us on YouTube</a>
+            </li>
+
+            <li>
+                <i class="fas fa-envelope" style="color: #D3D3D3;"></i>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=scienceexperiments045@gmail.com">Email Us</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
