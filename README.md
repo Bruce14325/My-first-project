@@ -1,2 +1,2 @@
-# My-first-project
+# Science-Experiments-Website
 This is my first project 
